@@ -5,7 +5,6 @@ import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <Skills />
       <Contact />
       <Footer />
-      <Analytics />
     </div>
   );
 }
